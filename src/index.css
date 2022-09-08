@@ -1,13 +1,47 @@
-body {
+.body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  width: 1440px;
+  height: 1492px;
+  background: #FEFDFB;
 }
+/* ------------ NavBar Css ----------- */
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 13px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  width: 1440px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+  border-bottom: 1px solid #EFEFEF;
+}
+.nav #smallDot{
+  height: 15px;
+  width: 15px;
+  left: 628.5px;
+  top: 24.5px;
+  border-radius: 0px;
+
+  background: #FB923C;
+}
+.navFont{
+  height: 24px;
+  width: 155px;
+  left: 656.5px;
+  top: 20px;
+  border-radius: nullpx;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
