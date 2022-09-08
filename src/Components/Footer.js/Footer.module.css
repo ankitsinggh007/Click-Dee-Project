@@ -1,0 +1,87 @@
+.footerBlack{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 15px;
+
+    position: absolute;
+    width: 99.8%;
+    height: 124px;
+    left: 0px;
+    bottom: 0px;
+
+    background: #2D2D2D;
+}
+
+.footerTextContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 83px;
+
+    width: 91.2%;
+    height: 24px;
+}
+
+.SolarPanelDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+
+    width: 183px;
+    height: 24px;
+}
+.SolarPanelDiv p{
+    width: 155px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #D1D1D1;
+}
+.CopyrightText{
+    width: 194px;
+    height: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.Privacy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 369px;
+    height: 20px;
+
+
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}

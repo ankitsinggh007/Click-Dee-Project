@@ -1,12 +1,14 @@
-.body {
+body{
   margin: 0;
+}
+/* <<<<<<< HEAD
   position: relative;
   width: 1440px;
   height: 1492px;
   background: #FEFDFB;
 }
 /* ------------ NavBar Css ----------- */
-.nav{
+/* .nav{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -44,4 +46,6 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-}
+=======
+>>>>>>> 0ff4a40afbead36586aa55b68c06e1b248b5c807
+} */ 

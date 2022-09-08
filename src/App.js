@@ -1,8 +1,10 @@
-import NavBar from "./Components/NavBar";
+import NavBar from "./Components/NavBar/NavBar";
+import Footer from "./Components/Footer.js/Footer";
 function App() {
   return (
-    <div className="body">
+    <div >
       <NavBar/>
+      <Footer/>
     </div>
   );
 }
