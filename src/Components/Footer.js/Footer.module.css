@@ -1,18 +1,14 @@
 .footerBlack{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 50px 0px;
-    gap: 15px;
-
-    /* position: absolute; */
     width: 99.8%;
-    height: 124px;
+    height: 20px;
     left: 0px;
     bottom: 0px;
-
-    background: #2D2D2D;
+    background-color: #2D2D2D;
 }
 
 .footerTextContainer{
@@ -49,8 +45,14 @@
     color: #D1D1D1;
 }
 .CopyrightText{
-    width: 194px;
+    width: auto;
     height: 20px;
+    font-family: Poppins;
+font-size: 13px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
 
     font-family: 'Poppins';
     font-style: normal;
