@@ -18,7 +18,7 @@ function Footer() {
             </div>
 
             <div className={Styles.Privacy}>
-                CALIFORNIA PRIVACY  |   PRIVACY POLICY  |   TERMS OF USE
+                CALIFORNIA PRIVACY | PRIVACY POLICY | TERMS OF USE
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@
     padding: 50px 0px;
     gap: 15px;
 
-    position: absolute;
+    /* position: absolute; */
     width: 99.8%;
     height: 124px;
     left: 0px;
@@ -79,9 +79,6 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
-
-    /* identical to box height */
-
 
     color: #FFFFFF;
 }
